@@ -6,7 +6,7 @@ var ya = driver.Ya(options => options.WithBaseUrl("https://github.com"));
 
 ya.SearchPage.Open(query: "yapoml")
     .Repositories
-    .Expect(its => its.IsNotEmpty(TimeSpan.FromSeconds(5)))
+    .Expect(its => its.IsNotEmpty())
     [r => r.Name == "yapoml/yapoml"]
     .Name.Click();
 
