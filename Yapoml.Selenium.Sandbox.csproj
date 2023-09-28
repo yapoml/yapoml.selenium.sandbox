@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Yapoml.Selenium" Version="0.38.1" />
+    <PackageReference Include="Yapoml.Selenium" Version="0.38.2" />
   </ItemGroup>
 
 </Project>
